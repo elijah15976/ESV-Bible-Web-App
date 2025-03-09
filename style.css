@@ -1,0 +1,19 @@
+body{
+  margin:0px;
+  padding:0px;
+  font-family:Arial;
+}
+
+#sideMenu{
+  border-right:1px black solid;
+  padding:1vh 1vw 1vh 1vw;
+  width:20vw;
+  height:98vh;
+}
+
+#sideMenu h2{
+  margin:0px;
+  font-size:30px;
+  text-align:center;
+  text-decoration:underline;
+}
