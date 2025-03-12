@@ -1,14 +1,30 @@
+:root{
+  --main-background: #FCFFFC;
+  --menus-background: #F8FDF3;
+}
+
 body{
+  background-color:var(--main-background);
   margin:0px;
   padding:0px;
   font-family:Arial;
 }
 
+#entire-sideMenu{
+  display:flex;
+  align-items:center;
+  width:max-content;
+  margin-left:calc(-1 * (300px + 2vw));
+  transition:0.4s;
+}
+
 #sideMenu{
+  background-color:var(--menus-background);
   border-right:1px black solid;
   padding:1vh 1vw 1vh 1vw;
-  width:20vw;
+  width:300px;
   height:98vh;
+  box-shadow:#AAAAAA 0px 0px 20px;
 }
 
 #sideMenu h2{
@@ -16,4 +32,14 @@ body{
   font-size:30px;
   text-align:center;
   text-decoration:underline;
+}
+
+#call-menu{
+  background-color:#55555533;
+  margin:5px;
+  border-radius:40px;
+  width:30px;
+  height:min-content;
+  cursor:pointer;
+  transition:0.4s;
 }
