@@ -16,5 +16,5 @@ window.onload = () => {
 }
 
 function loadPassage(book, chapter){
-  output.innerHTML = bible[book][chapter];
+  output.innerHTML = `<div id="chapterNumber">${chapter}</div> <div>${bible[book][chapter]}</div>`;
 }

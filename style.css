@@ -63,6 +63,13 @@ main{
   transition:0.4s;
 }
 
+#chapterNumber{
+  font-size:90px;
+  float:left;
+  line-height: 1;
+  margin:0 10px;
+}
+
 .verse-number{
   font-size:20px;
   vertical-align: top;
